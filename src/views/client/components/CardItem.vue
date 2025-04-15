@@ -19,13 +19,12 @@
                 </div>
             </template>
         </Card>
-        <div v-if="route.query.t === 'new'" class="absolute block top-0 right-0 bg-red-500 text-white p-2 rounded-tr-xl">New</div>
-        <div v-else-if="props.data.discount" class="absolute block top-0 right-0 bg-red-500 text-white p-2 rounded-tr-xl">-{{ props.data.discount }}%</div>
+        <div v-if="route.query.t === 'new'" class="absolute block top-0 right-0 bg-primary rounded-bl-xl text-white p-2 rounded-tr-xl">New</div>
+        <div v-else-if="props.data.discount" class="absolute block top-0 right-0 bg-primary rounded-bl-xl text-white p-2 rounded-tr-xl">-{{ props.data.discount }}%</div>
     </div>
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
 import { useRoute } from 'vue-router';
 
 const props = defineProps(['data']);

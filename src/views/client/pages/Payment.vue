@@ -2,7 +2,7 @@
     <div class="h-auto container mx-auto py-10">
         <div class="grid grid-cols-2 gap-3">
             <div class="flex flex-col gap-3">
-                <img width="200" src="https://cdn.shopify.com/s/files/1/0731/6514/4343/files/logo-254x76_1_x320.png?v=1697473116" alt="" />
+                <img width="200" src="../../../assets/img/logo.png" alt="" />
                 <strong class="text-lg">Liên hệ</strong>
                 <div class="flex flex-col gap-2">
                     <label class="font-semibold">Email hoặc số điện thoại di động</label>
@@ -86,7 +86,6 @@
                 </div>
             </div>
         </div>
-
 
         <Drawer v-model:visible="couponModal" position="right" style="width: 30%">
             <template #header>

@@ -2,7 +2,7 @@
     <div :class="{ '!bg-primary': isScrolled }" class="h-32 w-full drop-shadow-md bg-white flex flex-col gap-1 z-50 sticky top-0">
         <div class="mx-auto h-full container w-full items-center flex justify-between gap-3">
             <router-link to="/client">
-                <img width="200" src="../../../assets/img/logo.avif" alt="" />
+                <img width="200" src="../../../assets/img/logo.png" alt="" />
             </router-link>
             <div class="w-[500px]">
                 <AutoComplete
@@ -55,7 +55,6 @@
                 <router-link to="/client/products-list" style="transition: 0.3s ease" :class="{ 'text-white': isScrolled }" class="hover:text-gray-700 text-primary"> Sản phẩm </router-link>
                 <router-link to="/client/brands-page" style="transition: 0.3s ease" :class="{ 'text-white': isScrolled }" class="hover:text-gray-700 text-primary"> Thương hiệu </router-link>
                 <router-link to="/client/monopoly" style="transition: 0.3s ease" :class="{ 'text-white': isScrolled }" class="hover:text-gray-700 text-primary"> Hàng độc quyền </router-link>
-                <!-- <router-link to="/" style="transition: 0.3s ease" :class="{ 'text-white': isScrolled }" class="hover:text-gray-700 text-primary"> Chương trình khuyến mãi </router-link> -->
             </div>
         </div>
     </div>
